@@ -61,7 +61,7 @@ def vector_norm_loop(vec):
     """
     result = 0
     for i in vec:
-      result += vec**2
+      result += i**2
     return math.sqrt(result)
     pass
 
